@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora interactiva</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <h1>Calculadora interactiva</h1>
+    <div class="calculadora">
+        <input type="text" id="resultado" disabled>
+        <div class="botones">
+            <button onclick="limpiar()">C</button>
+            <button onclick="agregarNumero(7)">7</button>
+            <button onclick="agregarNumero(8)">8</button>
+            <button onclick="agregarNumero(9)">9</button>
+            <button onclick="agregarOperador('+')">+</button>
+            <button onclick="agregarNumero(4)">4</button>
+            <button onclick="agregarNumero(5)">5</button>
+            <button onclick="agregarNumero(6)">6</button>
+            <button onclick="agregarOperador('-')">-</button>
+            <button onclick="agregarNumero(1)">1</button>
+            <button onclick="agregarNumero(2)">2</button>
+            <button onclick="agregarNumero(3)">3</button>
+            <button onclick="agregarOperador('*')">*</button>
+            <button onclick="agregarNumero(0)">0</button>
+            <button onclick="agregarDecimal()">.</button>
+            <button onclick="calcularResultado()">=</button>
+            <button onclick="agregarOperador('/')">/</button>
+        </div>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
