@@ -1,0 +1,23 @@
+.keyboard {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 10px;
+    background-color: crimson;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
